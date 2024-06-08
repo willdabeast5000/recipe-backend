@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\recipe-api\\recipe-api.csproj": {}
+    "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\RecipeApi\\RecipeApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\recipe-api\\recipe-api.csproj": {
+    "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\RecipeApi\\RecipeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\recipe-api\\recipe-api.csproj",
-        "projectName": "recipe-api",
-        "projectPath": "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\recipe-api\\recipe-api.csproj",
+        "projectUniqueName": "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\RecipeApi\\RecipeApi.csproj",
+        "projectName": "RecipeApi",
+        "projectPath": "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\RecipeApi\\RecipeApi.csproj",
         "packagesPath": "C:\\Users\\wcrea_35a5q49\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\recipe-api\\obj\\",
+        "outputPath": "C:\\Users\\wcrea_35a5q49\\Documents\\recipe-backend\\RecipeApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wcrea_35a5q49\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

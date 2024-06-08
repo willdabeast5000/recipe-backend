@@ -1,4 +1,4 @@
-namespace recipe_api;
+namespace RecipeApi;
 
 public class WeatherForecast
 {
